@@ -1,0 +1,146 @@
+﻿Build started 7/1/2016 9:29:54 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmpstat\libsrc\dcmpstat.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmpstat/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmpstat\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmpstat.dir\Release\\" /Fd"dcmpstat.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dcmpstat.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dviface.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsab.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsabl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsal.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsall.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscul.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsda.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsdal.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsfs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsga.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgal.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgll.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgrl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpshlp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsib.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsibl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsmsg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsov.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsovl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpspl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpspl2.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpspll.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpspr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsprt.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsri.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsril.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsrs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsrsl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpssp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsspl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpssv.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpssvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpstat.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpstx.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpstxl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvll.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvw.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvwl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvsighdl.cc"
+         dcmpstat.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dcmpstat.cc(1600): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dcmpstat.cc(1601): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+         dviface.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(177): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(492): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(766): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dviface.cc(1008): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dvpsab.cc
+         dvpsabl.cc
+         dvpsal.cc
+         dvpsall.cc
+         dvpscf.cc
+         dvpscu.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(62): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(275): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(285): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(296): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(298): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(309): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(311): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(322): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpscu.cc(324): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+         dvpscul.cc
+         dvpsda.cc
+         dvpsdal.cc
+         dvpsfs.cc
+         dvpsga.cc
+         dvpsgal.cc
+         dvpsgl.cc
+         dvpsgll.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgll.cc(184): warning C4267: 'initializing' : conversion from 'size_t' to 'Sint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgll.cc(352): warning C4267: 'initializing' : conversion from 'size_t' to 'Sint32', possible loss of data
+         dvpsgr.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgr.cc(190): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgr.cc(191): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsgr.cc(226): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+         dvpsgrl.cc
+         dvpshlp.cc
+         dvpsib.cc
+         Generating Code...
+         Compiling...
+         dvpsibl.cc
+         dvpsmsg.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsmsg.cc(137): warning C4267: '=' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsmsg.cc(289): warning C4244: 'initializing' : conversion from 'SOCKET' to 'int', possible loss of data
+         dvpsov.cc
+         dvpsovl.cc
+         dvpspl.cc
+         dvpspl2.cc
+         dvpspll.cc
+         dvpspr.cc
+         dvpsprt.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(177): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(492): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(766): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dvpsri.cc
+         dvpsril.cc
+         dvpsrs.cc
+         dvpsrsl.cc
+         dvpssp.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpssp.cc(1248): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpssp.cc(1538): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpssp.cc(1561): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+         dvpsspl.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(177): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(492): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include\dcmtk/dcmpstat/dvcache.h(766): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dvpssv.cc
+         dvpssvl.cc
+         dvpstat.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpstat.cc(1273): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpstat.cc(1356): warning C4267: 'return' : conversion from 'size_t' to 'Uint16', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpstat.cc(1358): warning C4267: 'return' : conversion from 'size_t' to 'Uint16', possible loss of data
+         dvpstx.cc
+         dvpstxl.cc
+         Generating Code...
+         Compiling...
+         dvpsvl.cc
+         dvpsvll.cc
+         dvpsvw.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvw.cc(70): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvw.cc(71): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\libsrc\dvpsvw.cc(76): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+         dvpsvwl.cc
+         dvsighdl.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmpstat\libsrc\Release\dcmpstat.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmpstat.dir\Release\dcmpstat.obj
+         dcmpstat.dir\Release\dviface.obj
+         dcmpstat.dir\Release\dvpsab.obj
+         dcmpstat.dir\Release\dvpsabl.obj
+         dcmpstat.dir\Release\dvpsal.obj
+         dcmpstat.dir\Release\dvpsall.obj
+         dcmpstat.dir\Release\dvpscf.obj
+         dcmpstat.dir\Release\dvpscu.obj
+         dcmpstat.dir\Release\dvpscul.obj
+         dcmpstat.dir\Release\dvpsda.obj
+         dcmpstat.dir\Release\dvpsdal.obj
+         dcmpstat.dir\Release\dvpsfs.obj
+         dcmpstat.dir\Release\dvpsga.obj
+         dcmpstat.dir\Release\dvpsgal.obj
+         dcmpstat.dir\Release\dvpsgl.obj
+         dcmpstat.dir\Release\dvpsgll.obj
+         dcmpstat.dir\Release\dvpsgr.obj
+         dcmpstat.dir\Release\dvpsgrl.obj
+         dcmpstat.dir\Release\dvpshlp.obj
+         dcmpstat.dir\Release\dvpsib.obj
+         dcmpstat.dir\Release\dvpsibl.obj
+         dcmpstat.dir\Release\dvpsmsg.obj
+         dcmpstat.dir\Release\dvpsov.obj
+         dcmpstat.dir\Release\dvpsovl.obj
+         dcmpstat.dir\Release\dvpspl.obj
+         dcmpstat.dir\Release\dvpspl2.obj
+         dcmpstat.dir\Release\dvpspll.obj
+         dcmpstat.dir\Release\dvpspr.obj
+         dcmpstat.dir\Release\dvpsprt.obj
+         dcmpstat.dir\Release\dvpsri.obj
+         dcmpstat.dir\Release\dvpsril.obj
+         dcmpstat.dir\Release\dvpsrs.obj
+         dcmpstat.dir\Release\dvpsrsl.obj
+         dcmpstat.dir\Release\dvpssp.obj
+         dcmpstat.dir\Release\dvpsspl.obj
+         dcmpstat.dir\Release\dvpssv.obj
+         dcmpstat.dir\Release\dvpssvl.obj
+         dcmpstat.dir\Release\dvpstat.obj
+         dcmpstat.dir\Release\dvpstx.obj
+         dcmpstat.dir\Release\dvpstxl.obj
+         dcmpstat.dir\Release\dvpsvl.obj
+         dcmpstat.dir\Release\dvpsvll.obj
+         dcmpstat.dir\Release\dvpsvw.obj
+         dcmpstat.dir\Release\dvpsvwl.obj
+         dcmpstat.dir\Release\dvsighdl.obj
+         dcmpstat.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmpstat\libsrc\Release\dcmpstat.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmpstat\libsrc\dcmpstat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:00.50

@@ -1,0 +1,39 @@
+﻿Build started 7/1/2016 9:30:33 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpls\libcharls\charls.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmjpls/libcharls/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpls\libcharls\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"charls.dir\Release\\" /Fd"charls.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\header.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\intrface.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\jpegls.cc"
+         header.cc
+         intrface.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\intrface.cc(98): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\intrface.cc(107): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\intrface.cc(119): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\intrface.cc(130): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\intrface.cc(188): warning C4267: 'argument' : conversion from 'size_t' to 'LONG', possible loss of data
+         jpegls.cc
+     1>c:\harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\scan.h(851): warning C4267: '+=' : conversion from 'size_t' to 'LONG', possible loss of data
+                 c:\harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\scan.h(833) : while compiling class template member function 'size_t JlsCodec<DefaultTraitsT<BYTE,BYTE>,STRATEGY>::DecodeScan(void *,const JlsRect &,const void *,size_t,bool)'
+                 with
+                 [
+                     STRATEGY=DecoderStrategy
+                 ]
+                 C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\jpegls.cc(92) : see reference to class template instantiation 'JlsCodec<DefaultTraitsT<BYTE,BYTE>,STRATEGY>' being compiled
+                 with
+                 [
+                     STRATEGY=DecoderStrategy
+                 ]
+                 C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\jpegls.cc(85) : while compiling class template member function 'OFauto_ptr<DecoderStrategy> JlsCodecFactory<DecoderStrategy>::GetCodec(const JlsParameters &,const JlsCustomParameters &)'
+                 C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\libcharls\jpegls.cc(166) : see reference to class template instantiation 'JlsCodecFactory<DecoderStrategy>' being compiled
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpls\libcharls\Release\charls.lib" /NOLOGO /MACHINE:X64  /machine:x64 charls.dir\Release\header.obj
+         charls.dir\Release\intrface.obj
+         charls.dir\Release\jpegls.obj
+         charls.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpls\libcharls\Release\charls.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpls\libcharls\charls.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.39

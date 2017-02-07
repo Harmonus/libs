@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8D558233-BDEF-374D-999A-C98D0C810941}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Harmonus_src\libs\dcmtk-3.6.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Harmonus_src/libs/dcmtk-3.6.0 -BC:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B --check-stamp-file C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Harmonus_src/libs/dcmtk-3.6.0/CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\3.5.0-rc2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\3.5.0-rc2\CMakeCCompiler.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\3.5.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\3.5.0-rc2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0\CMake\3rdparty.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0\CMake\GenerateDCMTKConfigure.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0\CMake\CheckFunctionWithHeaderExists.cmake;C:\Harmonus_src\libs\dcmtk-3.6.0\CMake\osconfig.h.in;C:\Harmonus_src\libs\dcmtk-3.6.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ZERO_CHECK.vcxproj">
+      <Project>F4021BC2-DFFA-33E3-AE38-7D43E3482E43</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/libcharls/charls.vcxproj">
+      <Project>CB42EAF8-2F80-31C3-9514-DF0A99C89A58</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcm2pdf.vcxproj">
+      <Project>5A6E4F53-B6ED-3F90-9D57-C906892AA5A4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/apps/dcm2pnm.vcxproj">
+      <Project>1AEF5804-89CD-3207-9F35-60A7AFCCBB7B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcm2xml.vcxproj">
+      <Project>46463CC1-379F-3E94-977C-5177EA605E5D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/apps/dcmcjpeg.vcxproj">
+      <Project>4FE7AEDA-A917-3620-BCB4-7F9FF9313AA0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/apps/dcmcjpls.vcxproj">
+      <Project>736D4D61-1EDA-3447-B88D-4A72962A4E48</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmconv.vcxproj">
+      <Project>1AB58CF1-969B-31E0-BD51-BF9812BEABFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmcrle.vcxproj">
+      <Project>C0D080D4-B088-38A7-8538-0688A139B11F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/libsrc/dcmdata.vcxproj">
+      <Project>891C697D-84DF-3201-B1B2-1F954D550ED1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/apps/dcmdjpeg.vcxproj">
+      <Project>96C34222-6BC6-3833-B287-62F4D3F439DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/apps/dcmdjpls.vcxproj">
+      <Project>CD91D0D7-B1B6-3FBA-AC8C-F1821281DF20</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmdrle.vcxproj">
+      <Project>7B5E293A-87BD-3BDC-8B92-D8311ED1F7CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsign/libsrc/dcmdsig.vcxproj">
+      <Project>C97500B8-642D-37A6-8E87-795CDE5F3F94</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/apps/dcmdspfn.vcxproj">
+      <Project>4D738AED-EF6A-388B-B8BF-102F0E9BCA40</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmdump.vcxproj">
+      <Project>393A97A1-2EDE-3FE5-8E2F-83BDA0D6FF6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmftest.vcxproj">
+      <Project>FDB3ACD7-651B-32DC-93AB-291EDC5AFF0B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmgpdir.vcxproj">
+      <Project>FD3636EC-0B41-34FF-9F98-DD83FF09A5CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/libsrc/dcmimage.vcxproj">
+      <Project>A947F26D-E5E0-3AE8-9B8A-E90C8EDEAB39</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/libsrc/dcmimgle.vcxproj">
+      <Project>66BEB99B-0A07-39AC-8E4D-DECCF262A7F8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/apps/dcmj2pnm.vcxproj">
+      <Project>399E5F2E-3AA8-34E9-A002-063D4BB00F23</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libsrc/dcmjpeg.vcxproj">
+      <Project>B2E3F055-17BB-32D5-B32C-78C6FFB9E834</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/libsrc/dcmjpls.vcxproj">
+      <Project>D431AAE3-6EFB-345B-A9B3-FCBFB6CE560F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/apps/dcml2pnm.vcxproj">
+      <Project>C07067E1-9CB3-353A-9DED-5A03768CAC68</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmmkcrv.vcxproj">
+      <Project>438A52B0-B5C1-3792-B592-2CD9AA20DE1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/apps/dcmmkdir.vcxproj">
+      <Project>65220654-05F9-315B-BD17-1DB0DD432669</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmmklut.vcxproj">
+      <Project>FD39F01A-49B0-35E4-8EC6-7EFEB139FD2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/libsrc/dcmnet.vcxproj">
+      <Project>2BE7B21C-A21F-33FD-B13A-42EF7EC2DBD8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dcmodify.vcxproj">
+      <Project>C8E9AC28-7F84-3B8C-9C80-7518063B20C4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmp2pgm.vcxproj">
+      <Project>C9C61AEF-452A-3F5C-A330-F271FD0F7101</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmprscp.vcxproj">
+      <Project>09956690-D29A-33AA-9A98-FFB3B0A122E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmprscu.vcxproj">
+      <Project>2A7BB414-5FA3-32FD-85C8-EA8BAD635AA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmpschk.vcxproj">
+      <Project>BD9870A3-4291-35AA-90AC-BBEA46C5C72C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmpsmk.vcxproj">
+      <Project>D20C97C4-EA96-34BF-AF6F-081BA421C74C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmpsprt.vcxproj">
+      <Project>78C77C39-45F6-3F03-AF7A-9662DD419661</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmpsrcv.vcxproj">
+      <Project>6C67A03E-BEF5-3E5A-80D5-7C59E01B7397</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/dcmpssnd.vcxproj">
+      <Project>CB06DF4C-7DA7-39A4-B867-ACD532B95F51</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/libsrc/dcmpstat.vcxproj">
+      <Project>C553530C-BC17-3E27-8FCA-15ECFDFE1DAF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/libsrc/dcmqrdb.vcxproj">
+      <Project>60CCC2A3-F8FE-3127-85BF-B8B4680A9607</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/apps/dcmqridx.vcxproj">
+      <Project>8D0F9057-D067-3C9E-9E04-BEFD10A8D054</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/apps/dcmqrscp.vcxproj">
+      <Project>38D3D2C2-5476-3844-A178-FB25BE33E2E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/apps/dcmqrti.vcxproj">
+      <Project>4B9E2EAD-5820-3D52-8A77-8F467B6627A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/apps/dcmquant.vcxproj">
+      <Project>73CBB72B-C10F-3101-B957-6B984FC1854D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/apps/dcmscale.vcxproj">
+      <Project>A5FF2D77-D1C0-32C6-9731-B8DB84941A68</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsign/apps/dcmsign.vcxproj">
+      <Project>1CD7A340-A732-38DB-B9F4-6A218B8ECAFF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/libsrc/dcmsr.vcxproj">
+      <Project>381E6382-5AC4-3B67-B741-552CD793A38F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmtls/libsrc/dcmtls.vcxproj">
+      <Project>091C9D1B-8159-3227-9C6A-149DB961822C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/libsrc/dcmwlm.vcxproj">
+      <Project>0BAC6650-9B6C-3C65-BB47-67439C2A6A6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/apps/dcod2lum.vcxproj">
+      <Project>87B8F82C-088C-3EFE-8C95-A85CE46B8821</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/apps/dconvlum.vcxproj">
+      <Project>9B268F9B-EE36-3AEE-AC36-62A5BE0CA14A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/dsr2html.vcxproj">
+      <Project>E39BF5D6-170A-381E-A2EF-9CA802390416</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/dsr2xml.vcxproj">
+      <Project>5705FB80-B4FD-34AD-9B29-ED8F2929F3D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/dsrdump.vcxproj">
+      <Project>00C93D59-F738-3ED9-A81C-9E4356A9862D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/dump2dcm.vcxproj">
+      <Project>A4878908-231D-34A1-87B0-16B794417293</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/echoscu.vcxproj">
+      <Project>47D472D4-6DEF-3435-837A-C27C67917596</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/findscu.vcxproj">
+      <Project>DD9A4620-6270-3817-9327-6BD62C35D122</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/tests/i2dbmp.vcxproj">
+      <Project>BCAC9C3B-EE55-3E20-8066-307459097368</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libijg12/ijg12.vcxproj">
+      <Project>D004AEA7-DBA3-304B-B66A-F4D23EE9E067</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libijg16/ijg16.vcxproj">
+      <Project>41A9EE40-82BA-3A15-B3E8-A351D7CA900E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libijg8/ijg8.vcxproj">
+      <Project>D675E46B-6FD5-34C4-9AE8-EF4EB68C416E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/img2dcm.vcxproj">
+      <Project>1374CBF8-29B3-301D-AB2E-553A68213F90</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/libi2d/libi2d.vcxproj">
+      <Project>469D5256-284F-3673-B389-4C895371044F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/tests/mkreport.vcxproj">
+      <Project>19B3E93B-6DFC-3B5D-8B49-7FDF3BB90776</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/movescu.vcxproj">
+      <Project>A9ECBD44-D1FC-336C-BDD7-7E3AAE667F84</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/libsrc/oflog.vcxproj">
+      <Project>A1BB37C6-F3C8-3F65-B348-FF4A94164801</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ofstd/libsrc/ofstd.vcxproj">
+      <Project>BDF2C855-2686-30DA-AA84-DE46FF327EDF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/pdf2dcm.vcxproj">
+      <Project>19C07D97-4E6E-3860-8AA9-F7CAD677EBAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/storescp.vcxproj">
+      <Project>CFFDC1FE-B57D-377F-8A0C-EED24DDCF78E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/storescu.vcxproj">
+      <Project>C448EE8E-D45D-353B-943A-E55E79936E79</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/termscu.vcxproj">
+      <Project>E449991F-2419-386A-A997-93DA3CB99F89</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/tests/tstchval.vcxproj">
+      <Project>4EDD4E90-F559-3963-9D16-5F4658193BB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/tests/tstpath.vcxproj">
+      <Project>9330A1DF-4604-32B6-9B8B-79351D96CF9F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/tests/tstpread.vcxproj">
+      <Project>72B5C36E-5184-386C-8095-B30CDC18D014</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/tests/tvrdatim.vcxproj">
+      <Project>3D4ABC8F-B378-30C3-B314-C7A5E0F0A433</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/apps/wlmscpfs.vcxproj">
+      <Project>9D2913B7-E846-3F51-AECC-37707D53AD62</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/xml2dcm.vcxproj">
+      <Project>F30836C1-7A82-39BB-B9DE-F90E217937C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/xml2dsr.vcxproj">
+      <Project>0E832DBF-6BDD-3835-BAF4-A5AA9AF97BFF</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

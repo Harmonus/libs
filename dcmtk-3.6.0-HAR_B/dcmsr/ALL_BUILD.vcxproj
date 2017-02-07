@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8D558233-BDEF-374D-999A-C98D0C810941}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmsr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Harmonus_src/libs/dcmtk-3.6.0 -BC:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B --check-stamp-file C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Harmonus_src/libs/dcmtk-3.6.0/dcmsr/CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ZERO_CHECK.vcxproj">
+      <Project>F4021BC2-DFFA-33E3-AE38-7D43E3482E43</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/libsrc/dcmsr.vcxproj">
+      <Project>381E6382-5AC4-3B67-B741-552CD793A38F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/dsr2html.vcxproj">
+      <Project>E39BF5D6-170A-381E-A2EF-9CA802390416</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/dsr2xml.vcxproj">
+      <Project>5705FB80-B4FD-34AD-9B29-ED8F2929F3D8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/dsrdump.vcxproj">
+      <Project>00C93D59-F738-3ED9-A81C-9E4356A9862D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/tests/mkreport.vcxproj">
+      <Project>19B3E93B-6DFC-3B5D-8B49-7FDF3BB90776</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/xml2dsr.vcxproj">
+      <Project>0E832DBF-6BDD-3835-BAF4-A5AA9AF97BFF</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,108 @@
+﻿Build started 7/1/2016 9:31:58 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmnet\libsrc\dcmnet.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmnet/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmnet\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmnet.dir\Release\\" /Fd"dcmnet.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\assoc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\cond.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcasccff.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcasccfg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dccfenmp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dccfpcmp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dccfprmp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dccfrsmp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dccftsmp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dccfuidh.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcmlayer.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcmtrans.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcompat.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimcancl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimcmd.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimdump.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimecho.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimfind.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimget.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimmove.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimse.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimstore.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\diutil.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dul.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulconst.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulextra.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulfsm.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulparse.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulpres.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\extneg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\lst.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dfindscu.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcuserid.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\scu.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\scp.cc"
+         assoc.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\assoc.cc(1304): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint16', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\assoc.cc(1305): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint16', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\assoc.cc(1328): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint16', possible loss of data
+         cond.cc
+         dcasccff.cc
+         dcasccfg.cc
+         dccfenmp.cc
+         dccfpcmp.cc
+         dccfprmp.cc
+         dccfrsmp.cc
+         dccftsmp.cc
+         dccfuidh.cc
+         dcmlayer.cc
+         dcmtrans.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcmtrans.cc(210): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dcmtrans.cc(219): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         dcompat.cc
+         dimcancl.cc
+         dimcmd.cc
+         dimdump.cc
+         dimecho.cc
+         dimfind.cc
+         dimget.cc
+         dimmove.cc
+         Generating Code...
+         Compiling...
+         dimse.cc
+         dimstore.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dimstore.cc(217): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         diutil.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\diutil.cc(136): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\diutil.cc(148): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\diutil.cc(264): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\diutil.cc(266): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dul.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dul.cc(1617): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dul.cc(1774): warning C4267: 'argument' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dul.cc(2084): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+         dulconst.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulconst.cc(1103): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulconst.cc(1477): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulconst.cc(1523): warning C4267: '=' : conversion from 'size_t' to 'unsigned short', possible loss of data
+         dulextra.cc
+         dulfsm.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\dulfsm.cc(2192): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+         dulparse.cc
+         dulpres.cc
+         extneg.cc
+         lst.cc
+         dfindscu.cc
+         dcuserid.cc
+         scu.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\scu.cc(198): warning C4267: 'initializing' : conversion from 'size_t' to 'const Uint16', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\scu.cc(1248): warning C4267: 'initializing' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\scu.cc(1265): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+         scp.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\libsrc\scp.cc(1204): warning C4267: 'return' : conversion from 'size_t' to 'Uint16', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmnet\libsrc\Release\dcmnet.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmnet.dir\Release\assoc.obj
+         dcmnet.dir\Release\cond.obj
+         dcmnet.dir\Release\dcasccff.obj
+         dcmnet.dir\Release\dcasccfg.obj
+         dcmnet.dir\Release\dccfenmp.obj
+         dcmnet.dir\Release\dccfpcmp.obj
+         dcmnet.dir\Release\dccfprmp.obj
+         dcmnet.dir\Release\dccfrsmp.obj
+         dcmnet.dir\Release\dccftsmp.obj
+         dcmnet.dir\Release\dccfuidh.obj
+         dcmnet.dir\Release\dcmlayer.obj
+         dcmnet.dir\Release\dcmtrans.obj
+         dcmnet.dir\Release\dcompat.obj
+         dcmnet.dir\Release\dimcancl.obj
+         dcmnet.dir\Release\dimcmd.obj
+         dcmnet.dir\Release\dimdump.obj
+         dcmnet.dir\Release\dimecho.obj
+         dcmnet.dir\Release\dimfind.obj
+         dcmnet.dir\Release\dimget.obj
+         dcmnet.dir\Release\dimmove.obj
+         dcmnet.dir\Release\dimse.obj
+         dcmnet.dir\Release\dimstore.obj
+         dcmnet.dir\Release\diutil.obj
+         dcmnet.dir\Release\dul.obj
+         dcmnet.dir\Release\dulconst.obj
+         dcmnet.dir\Release\dulextra.obj
+         dcmnet.dir\Release\dulfsm.obj
+         dcmnet.dir\Release\dulparse.obj
+         dcmnet.dir\Release\dulpres.obj
+         dcmnet.dir\Release\extneg.obj
+         dcmnet.dir\Release\lst.obj
+         dcmnet.dir\Release\dfindscu.obj
+         dcmnet.dir\Release\dcuserid.obj
+         dcmnet.dir\Release\scu.obj
+         dcmnet.dir\Release\scp.obj
+         dcmnet.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmnet\libsrc\Release\dcmnet.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmnet\libsrc\dcmnet.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:04.82

@@ -1,0 +1,28 @@
+﻿Build started 7/1/2016 9:32:47 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmwlm\libsrc\dcmwlm.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmwlm/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmwlm\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmwlm.dir\Release\\" /Fd"dcmwlm.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlds.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wldsfs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlfsim.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlmactmg.cc"
+         wlds.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlds.cc(1037): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlds.cc(1038): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         wldsfs.cc
+         wlfsim.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlfsim.cc(464): warning C4244: 'initializing' : conversion from 'intptr_t' to 'long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlfsim.cc(2133): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\libsrc\wlfsim.cc(2144): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         wlmactmg.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmwlm\libsrc\Release\dcmwlm.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmwlm.dir\Release\wlds.obj
+         dcmwlm.dir\Release\wldsfs.obj
+         dcmwlm.dir\Release\wlfsim.obj
+         dcmwlm.dir\Release\wlmactmg.obj
+         dcmwlm.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmwlm\libsrc\Release\dcmwlm.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmwlm\libsrc\dcmwlm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.05

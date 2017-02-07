@@ -1,0 +1,58 @@
+﻿Build started 7/1/2016 9:33:28 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ofstd\libsrc\ofstd.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/ofstd/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ofstd\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ofstd.dir\Release\\" /Fd"ofstd.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcmdln.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofconapp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcond.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofconfig.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofconsol.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcrc32.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofdate.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofdatime.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\offname.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\oflist.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstd.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofthread.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\oftime.cc"
+         ofcmdln.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcmdln.cc(958): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcmdln.cc(1184): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcmdln.cc(1300): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcmdln.cc(1302): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofcmdln.cc(1373): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         ofconapp.cc
+         ofcond.cc
+         ofconfig.cc
+         ofconsol.cc
+         ofcrc32.cc
+         ofdate.cc
+         ofdatime.cc
+         offname.cc
+         oflist.cc
+         ofstd.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstd.cc(1702): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         ofstring.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(87): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(186): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(229): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(409): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(412): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(434): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(482): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofstring.cc(581): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         ofthread.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\libsrc\ofthread.cc(136): warning C4244: '=' : conversion from 'uintptr_t' to 'unsigned long', possible loss of data
+         oftime.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ofstd\libsrc\Release\ofstd.lib" /NOLOGO /MACHINE:X64  /machine:x64 ofstd.dir\Release\ofcmdln.obj
+         ofstd.dir\Release\ofconapp.obj
+         ofstd.dir\Release\ofcond.obj
+         ofstd.dir\Release\ofconfig.obj
+         ofstd.dir\Release\ofconsol.obj
+         ofstd.dir\Release\ofcrc32.obj
+         ofstd.dir\Release\ofdate.obj
+         ofstd.dir\Release\ofdatime.obj
+         ofstd.dir\Release\offname.obj
+         ofstd.dir\Release\oflist.obj
+         ofstd.dir\Release\ofstd.obj
+         ofstd.dir\Release\ofstring.obj
+         ofstd.dir\Release\ofthread.obj
+         ofstd.dir\Release\oftime.obj
+         ofstd.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ofstd\libsrc\Release\ofstd.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ofstd\libsrc\ofstd.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.65

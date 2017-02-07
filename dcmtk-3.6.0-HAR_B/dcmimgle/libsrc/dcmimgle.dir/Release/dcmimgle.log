@@ -1,0 +1,70 @@
+﻿Build started 7/1/2016 9:29:53 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimgle\libsrc\dcmimgle.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmimgle/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimgle\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmimgle.dir\Release\\" /Fd"dcmimgle.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dcmimage.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dibaslut.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diciefn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dicielut.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\didislut.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\didispfn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\didocu.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\digsdfn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\digsdlut.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diimage.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diinpx.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diluptab.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimo1img.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimo2img.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimoimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimoimg3.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimoimg4.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimoimg5.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimomod.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimoopx.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimopx.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diovdat.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diovlay.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diovlimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diovpln.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\diutils.cc"
+         dcmimage.cc
+         dibaslut.cc
+         diciefn.cc
+         dicielut.cc
+         didislut.cc
+         didispfn.cc
+         didocu.cc
+         digsdfn.cc
+         digsdlut.cc
+         diimage.cc
+         diinpx.cc
+         diluptab.cc
+         dimo1img.cc
+         dimo2img.cc
+         dimoimg.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\libsrc\dimoimg.cc(1907): warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+         dimoimg3.cc
+         dimoimg4.cc
+         dimoimg5.cc
+         dimomod.cc
+         dimoopx.cc
+         Generating Code...
+         Compiling...
+         dimopx.cc
+         diovdat.cc
+         diovlay.cc
+         diovlimg.cc
+         diovpln.cc
+         diutils.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimgle\libsrc\Release\dcmimgle.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmimgle.dir\Release\dcmimage.obj
+         dcmimgle.dir\Release\dibaslut.obj
+         dcmimgle.dir\Release\diciefn.obj
+         dcmimgle.dir\Release\dicielut.obj
+         dcmimgle.dir\Release\didislut.obj
+         dcmimgle.dir\Release\didispfn.obj
+         dcmimgle.dir\Release\didocu.obj
+         dcmimgle.dir\Release\digsdfn.obj
+         dcmimgle.dir\Release\digsdlut.obj
+         dcmimgle.dir\Release\diimage.obj
+         dcmimgle.dir\Release\diinpx.obj
+         dcmimgle.dir\Release\diluptab.obj
+         dcmimgle.dir\Release\dimo1img.obj
+         dcmimgle.dir\Release\dimo2img.obj
+         dcmimgle.dir\Release\dimoimg.obj
+         dcmimgle.dir\Release\dimoimg3.obj
+         dcmimgle.dir\Release\dimoimg4.obj
+         dcmimgle.dir\Release\dimoimg5.obj
+         dcmimgle.dir\Release\dimomod.obj
+         dcmimgle.dir\Release\dimoopx.obj
+         dcmimgle.dir\Release\dimopx.obj
+         dcmimgle.dir\Release\diovdat.obj
+         dcmimgle.dir\Release\diovlay.obj
+         dcmimgle.dir\Release\diovlimg.obj
+         dcmimgle.dir\Release\diovpln.obj
+         dcmimgle.dir\Release\diutils.obj
+         dcmimgle.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimgle\libsrc\Release\dcmimgle.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimgle\libsrc\dcmimgle.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:19.43

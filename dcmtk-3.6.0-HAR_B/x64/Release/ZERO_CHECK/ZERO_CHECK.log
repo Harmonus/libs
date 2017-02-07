@@ -1,0 +1,91 @@
+﻿Build started 7/1/2016 9:29:52 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/config/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/config/docs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ofstd/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ofstd/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ofstd/include/dcmtk/ofstd/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/include/dcmtk/oflog/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/etc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/include/dcmtk/oflog/config/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/include/dcmtk/oflog/helpers/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/oflog/include/dcmtk/oflog/spi/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/libi2d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/include/dcmtk/dcmdata/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/docs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/data/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/tests/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmdata/include/dcmtk/dcmdata/libi2d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/include/dcmtk/dcmimgle/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimgle/data/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libijg8/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libijg12/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/libijg16/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpeg/include/dcmtk/dcmjpeg/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmimage/include/dcmtk/dcmimage/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmtls/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmtls/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmtls/include/dcmtk/dcmtls/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmtls/docs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/include/dcmtk/dcmnet/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/docs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmnet/etc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/include/dcmtk/dcmwlm/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/docs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmwlm/data/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/include/dcmtk/dcmqrdb/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/docs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmqrdb/etc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/tests/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/include/dcmtk/dcmsr/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsr/data/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/include/dcmtk/dcmpstat/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/data/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmpstat/etc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsign/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsign/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsign/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmsign/include/dcmtk/dcmsign/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/libsrc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/libcharls/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/apps/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/dcmjpls/include/dcmtk/dcmjpls/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/doxygen/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.32

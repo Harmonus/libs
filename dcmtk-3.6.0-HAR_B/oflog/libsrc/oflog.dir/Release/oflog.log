@@ -1,0 +1,93 @@
+﻿Build started 7/1/2016 9:33:14 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\oflog\libsrc\oflog.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/oflog/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\oflog\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"oflog.dir\Release\\" /Fd"oflog.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\oflog.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\apndimpl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\appender.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\config.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\consap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\factory.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\fileap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\filter.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\globinit.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\hierarchy.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\hierlock.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\layout.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\logger.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\logimpl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\logevent.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\loglevel.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\loglog.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\lloguser.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\ndc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\ntelogap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\nullap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\objreg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\patlay.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\pointer.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\property.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\rootlog.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\sleep.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\socketap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\sockbuff.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\socket.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\strhelp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\syncprims.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\syslogap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\threads.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\timehelp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\winsock.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\windebap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\libsrc\winconap.cc"
+         oflog.cc
+         apndimpl.cc
+         appender.cc
+         config.cc
+         consap.cc
+         factory.cc
+         fileap.cc
+         filter.cc
+         globinit.cc
+         hierarchy.cc
+         hierlock.cc
+         layout.cc
+         logger.cc
+         logimpl.cc
+         logevent.cc
+         loglevel.cc
+         loglog.cc
+         lloguser.cc
+         ndc.cc
+         ntelogap.cc
+         Generating Code...
+         Compiling...
+         nullap.cc
+         objreg.cc
+         patlay.cc
+         pointer.cc
+         property.cc
+         rootlog.cc
+         sleep.cc
+         socketap.cc
+         sockbuff.cc
+         socket.cc
+         strhelp.cc
+         syncprims.cc
+         syslogap.cc
+         threads.cc
+         timehelp.cc
+         winsock.cc
+         windebap.cc
+         winconap.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\oflog\libsrc\Release\oflog.lib" /NOLOGO /MACHINE:X64  /machine:x64 oflog.dir\Release\oflog.obj
+         oflog.dir\Release\apndimpl.obj
+         oflog.dir\Release\appender.obj
+         oflog.dir\Release\config.obj
+         oflog.dir\Release\consap.obj
+         oflog.dir\Release\factory.obj
+         oflog.dir\Release\fileap.obj
+         oflog.dir\Release\filter.obj
+         oflog.dir\Release\globinit.obj
+         oflog.dir\Release\hierarchy.obj
+         oflog.dir\Release\hierlock.obj
+         oflog.dir\Release\layout.obj
+         oflog.dir\Release\logger.obj
+         oflog.dir\Release\logimpl.obj
+         oflog.dir\Release\logevent.obj
+         oflog.dir\Release\loglevel.obj
+         oflog.dir\Release\loglog.obj
+         oflog.dir\Release\lloguser.obj
+         oflog.dir\Release\ndc.obj
+         oflog.dir\Release\ntelogap.obj
+         oflog.dir\Release\nullap.obj
+         oflog.dir\Release\objreg.obj
+         oflog.dir\Release\patlay.obj
+         oflog.dir\Release\pointer.obj
+         oflog.dir\Release\property.obj
+         oflog.dir\Release\rootlog.obj
+         oflog.dir\Release\sleep.obj
+         oflog.dir\Release\socketap.obj
+         oflog.dir\Release\sockbuff.obj
+         oflog.dir\Release\socket.obj
+         oflog.dir\Release\strhelp.obj
+         oflog.dir\Release\syncprims.obj
+         oflog.dir\Release\syslogap.obj
+         oflog.dir\Release\threads.obj
+         oflog.dir\Release\timehelp.obj
+         oflog.dir\Release\winsock.obj
+         oflog.dir\Release\windebap.obj
+         oflog.dir\Release\winconap.obj
+         oflog.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\oflog\libsrc\Release\oflog.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\oflog\libsrc\oflog.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:50.94

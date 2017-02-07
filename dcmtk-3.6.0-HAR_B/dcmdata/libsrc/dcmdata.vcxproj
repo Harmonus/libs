@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{891C697D-84DF-3201-B1B2-1F954D550ED1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dcmdata</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmdata.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmdata</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmdata/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Harmonus_src/libs/dcmtk-3.6.0 -BC:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B --check-stamp-file C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Harmonus_src/libs/dcmtk-3.6.0/dcmdata/libsrc/CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\cmdlnarg.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcbytstr.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcchrstr.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dccodec.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdatset.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcddirif.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdicdir.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdicent.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdictzz.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdirrec.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcelem.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcerror.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcfilefo.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dchashdi.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrma.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrmb.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrmf.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrmz.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcitem.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dclist.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcmetinf.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcobject.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrma.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrmb.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrmf.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrmz.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpcache.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpixel.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpixseq.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpxitem.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrleccd.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlecce.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlecp.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrledrg.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrleerg.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlerp.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcsequen.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcstack.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcswap.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dctag.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dctagkey.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dctypes.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcuid.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcwcache.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvm.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvr.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrae.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvras.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrat.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrcs.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrda.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrds.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrdt.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrfd.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrfl.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvris.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrlo.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrlt.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrobow.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrof.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrpn.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrpobw.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrsh.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrsl.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrss.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrst.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrtm.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrui.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrul.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrulup.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrus.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrut.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcxfer.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpath.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscan.cc"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscanl.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ZERO_CHECK.vcxproj">
+      <Project>F4021BC2-DFFA-33E3-AE38-7D43E3482E43</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

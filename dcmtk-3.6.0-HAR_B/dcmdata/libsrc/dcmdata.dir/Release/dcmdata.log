@@ -1,0 +1,217 @@
+﻿Build started 7/1/2016 9:31:59 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\dcmdata.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmdata/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmdata.dir\Release\\" /Fd"dcmdata.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\cmdlnarg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcbytstr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcchrstr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dccodec.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdatset.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcddirif.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdicdir.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdicent.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdictzz.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdirrec.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcelem.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcerror.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcfilefo.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dchashdi.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrma.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrmb.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrmf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcistrmz.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcitem.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dclist.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcmetinf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcobject.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrma.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrmb.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrmf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcostrmz.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpcache.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpixel.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpixseq.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpxitem.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrleccd.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlecce.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlecp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrledrg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrleerg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlerp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcsequen.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcstack.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcswap.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dctag.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dctagkey.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dctypes.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcuid.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcwcache.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvm.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrae.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvras.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrat.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrcs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrda.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrds.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrdt.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrfd.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrfl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvris.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrlo.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrlt.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrobow.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrof.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrpn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrpobw.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrsh.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrsl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrss.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrst.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrtm.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrui.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrul.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrulup.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrus.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrut.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcxfer.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpath.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscan.cc"
+         cmdlnarg.cc
+         dcbytstr.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcbytstr.cc(193): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcbytstr.cc(311): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcbytstr.cc(363): warning C4267: '=' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dcchrstr.cc
+         dccodec.cc
+         dcdatset.cc
+         dcddirif.cc
+         dcdicdir.cc
+         dcdicent.cc
+         dcdict.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(169): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(254): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(256): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(323): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(389): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(415): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdict.cc(618): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dcdictzz.cc
+         dcdirrec.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcdirrec.cc(601): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         dcelem.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcelem.cc(1456): warning C4267: '=' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcelem.cc(1463): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcelem.cc(1513): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+         dcerror.cc
+         dcfilefo.cc
+         dchashdi.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dchashdi.cc(496): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dchashdi.cc(518): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dcistrma.cc
+         dcistrmb.cc
+         dcistrmf.cc
+         dcistrmz.cc
+         dcitem.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcitem.cc(821): warning C4267: 'initializing' : conversion from 'size_t' to 'Uint32', possible loss of data
+         Generating Code...
+         Compiling...
+         dclist.cc
+         dcmetinf.cc
+         dcobject.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcobject.cc(214): warning C4267: 'initializing' : conversion from 'size_t' to 'const long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcobject.cc(303): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcostrma.cc
+         dcostrmb.cc
+         dcostrmf.cc
+         dcostrmz.cc
+         dcpcache.cc
+         dcpixel.cc
+         dcpixseq.cc
+         dcpxitem.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpxitem.cc(127): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcrleccd.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrleccd.cc(634): warning C4267: '=' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dcrlecce.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlecce.cc(289): warning C4267: '=' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcrlecce.cc(296): warning C4267: '+=' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dcrlecp.cc
+         dcrledrg.cc
+         dcrleerg.cc
+         dcrlerp.cc
+         dcsequen.cc
+         dcstack.cc
+         dcswap.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcswap.cc(116): warning C4267: 'initializing' : conversion from 'size_t' to 'Uint32', possible loss of data
+         Generating Code...
+         Compiling...
+         dctag.cc
+         dctagkey.cc
+         dctypes.cc
+         dcuid.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcuid.cc(1551): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dcwcache.cc
+         dcvm.cc
+         dcvr.cc
+         dcvrae.cc
+         dcvras.cc
+         dcvrat.cc
+         dcvrcs.cc
+         dcvrda.cc
+         dcvrds.cc
+         dcvrdt.cc
+         dcvrfd.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrfd.cc(140): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcvrfl.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrfl.cc(140): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcvris.cc
+         dcvrlo.cc
+         dcvrlt.cc
+         dcvrobow.cc
+         Generating Code...
+         Compiling...
+         dcvrof.cc
+         dcvrpn.cc
+         dcvrpobw.cc
+         dcvrsh.cc
+         dcvrsl.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrsl.cc(142): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcvrss.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrss.cc(135): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcvrst.cc
+         dcvrtm.cc
+         dcvrui.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrui.cc(179): warning C4267: 'initializing' : conversion from 'size_t' to 'const int', possible loss of data
+         dcvrul.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrul.cc(141): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcvrulup.cc
+         dcvrus.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcvrus.cc(134): warning C4267: '=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         dcvrut.cc
+         dcxfer.cc
+         dcpath.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpath.cc(103): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\dcpath.cc(458): warning C4267: 'return' : conversion from 'size_t' to 'Uint32', possible loss of data
+         vrscan.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscan.cc(51): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscan.cc(54): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscan.cc(87): warning C4267: 'argument' : conversion from 'size_t' to 'yy_size_t', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmdata.dir\Release\\" /Fd"dcmdata.dir\Release\vc120.pdb" /Gd /TC /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\libsrc\vrscanl.c"
+         vrscanl.c
+     1>vrscanl.c(5888): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>vrscanl.c(6230): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>vrscanl.c(6657): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>vrscanl.c(6715): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\Release\dcmdata.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmdata.dir\Release\cmdlnarg.obj
+         dcmdata.dir\Release\dcbytstr.obj
+         dcmdata.dir\Release\dcchrstr.obj
+         dcmdata.dir\Release\dccodec.obj
+         dcmdata.dir\Release\dcdatset.obj
+         dcmdata.dir\Release\dcddirif.obj
+         dcmdata.dir\Release\dcdicdir.obj
+         dcmdata.dir\Release\dcdicent.obj
+         dcmdata.dir\Release\dcdict.obj
+         dcmdata.dir\Release\dcdictzz.obj
+         dcmdata.dir\Release\dcdirrec.obj
+         dcmdata.dir\Release\dcelem.obj
+         dcmdata.dir\Release\dcerror.obj
+         dcmdata.dir\Release\dcfilefo.obj
+         dcmdata.dir\Release\dchashdi.obj
+         dcmdata.dir\Release\dcistrma.obj
+         dcmdata.dir\Release\dcistrmb.obj
+         dcmdata.dir\Release\dcistrmf.obj
+         dcmdata.dir\Release\dcistrmz.obj
+         dcmdata.dir\Release\dcitem.obj
+         dcmdata.dir\Release\dclist.obj
+         dcmdata.dir\Release\dcmetinf.obj
+         dcmdata.dir\Release\dcobject.obj
+         dcmdata.dir\Release\dcostrma.obj
+         dcmdata.dir\Release\dcostrmb.obj
+         dcmdata.dir\Release\dcostrmf.obj
+         dcmdata.dir\Release\dcostrmz.obj
+         dcmdata.dir\Release\dcpcache.obj
+         dcmdata.dir\Release\dcpixel.obj
+         dcmdata.dir\Release\dcpixseq.obj
+         dcmdata.dir\Release\dcpxitem.obj
+         dcmdata.dir\Release\dcrleccd.obj
+         dcmdata.dir\Release\dcrlecce.obj
+         dcmdata.dir\Release\dcrlecp.obj
+         dcmdata.dir\Release\dcrledrg.obj
+         dcmdata.dir\Release\dcrleerg.obj
+         dcmdata.dir\Release\dcrlerp.obj
+         dcmdata.dir\Release\dcsequen.obj
+         dcmdata.dir\Release\dcstack.obj
+         dcmdata.dir\Release\dcswap.obj
+         dcmdata.dir\Release\dctag.obj
+         dcmdata.dir\Release\dctagkey.obj
+         dcmdata.dir\Release\dctypes.obj
+         dcmdata.dir\Release\dcuid.obj
+         dcmdata.dir\Release\dcwcache.obj
+         dcmdata.dir\Release\dcvm.obj
+         dcmdata.dir\Release\dcvr.obj
+         dcmdata.dir\Release\dcvrae.obj
+         dcmdata.dir\Release\dcvras.obj
+         dcmdata.dir\Release\dcvrat.obj
+         dcmdata.dir\Release\dcvrcs.obj
+         dcmdata.dir\Release\dcvrda.obj
+         dcmdata.dir\Release\dcvrds.obj
+         dcmdata.dir\Release\dcvrdt.obj
+         dcmdata.dir\Release\dcvrfd.obj
+         dcmdata.dir\Release\dcvrfl.obj
+         dcmdata.dir\Release\dcvris.obj
+         dcmdata.dir\Release\dcvrlo.obj
+         dcmdata.dir\Release\dcvrlt.obj
+         dcmdata.dir\Release\dcvrobow.obj
+         dcmdata.dir\Release\dcvrof.obj
+         dcmdata.dir\Release\dcvrpn.obj
+         dcmdata.dir\Release\dcvrpobw.obj
+         dcmdata.dir\Release\dcvrsh.obj
+         dcmdata.dir\Release\dcvrsl.obj
+         dcmdata.dir\Release\dcvrss.obj
+         dcmdata.dir\Release\dcvrst.obj
+         dcmdata.dir\Release\dcvrtm.obj
+         dcmdata.dir\Release\dcvrui.obj
+         dcmdata.dir\Release\dcvrul.obj
+         dcmdata.dir\Release\dcvrulup.obj
+         dcmdata.dir\Release\dcvrus.obj
+         dcmdata.dir\Release\dcvrut.obj
+         dcmdata.dir\Release\dcxfer.obj
+         dcmdata.dir\Release\dcpath.obj
+         dcmdata.dir\Release\vrscan.obj
+         dcmdata.dir\Release\vrscanl.obj
+         dcmdata.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\Release\dcmdata.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmdata\libsrc\dcmdata.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:01.44

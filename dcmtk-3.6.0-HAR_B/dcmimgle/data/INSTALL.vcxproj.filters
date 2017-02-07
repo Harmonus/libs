@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\CMakeFiles\031e8e3cc081f0a00793cf0ad6f44496\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{78055EBB-EFBD-3BC8-9577-4008154FB8AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

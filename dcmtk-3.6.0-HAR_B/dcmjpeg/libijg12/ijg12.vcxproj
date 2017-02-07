@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D004AEA7-DBA3-304B-B66A-F4D23EE9E067}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ijg12</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg12\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ijg12.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ijg12</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_NULL_SAFE_OFSTRING;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_REENTRANT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include;C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include;C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmjpeg/libijg12/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Harmonus_src/libs/dcmtk-3.6.0 -BC:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B --check-stamp-file C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg12\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Harmonus_src/libs/dcmtk-3.6.0/dcmjpeg/libijg12/CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\CMakeLists.txt;C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg12\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jaricom.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcapimin.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcapistd.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcarith.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jccoefct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jccolor.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcdctmgr.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcdiffct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jchuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcinit.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jclhuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jclossls.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jclossy.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcmainct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcmarker.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcmaster.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcodec.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcomapi.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcparam.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcphuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcpred.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcprepct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcsample.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcscale.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jcshuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jctrans.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdapimin.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdapistd.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdarith.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdatadst.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdatasrc.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdcoefct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdcolor.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jddctmgr.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jddiffct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdhuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdinput.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdlhuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdlossls.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdlossy.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdmainct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdmarker.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdmaster.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdmerge.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdphuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdpostct.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdpred.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdsample.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdscale.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdshuff.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jdtrans.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jerror.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jfdctflt.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jfdctfst.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jfdctint.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jidctflt.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jidctfst.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jidctint.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jidctred.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jmemmgr.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jmemnobs.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jquant1.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jquant2.c"  />
+    <ClCompile Include="C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12\jutils.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Harmonus_src/libs/dcmtk-3.6.0-HAR_B/ZERO_CHECK.vcxproj">
+      <Project>F4021BC2-DFFA-33E3-AE38-7D43E3482E43</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

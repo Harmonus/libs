@@ -1,0 +1,43 @@
+﻿Build started 7/1/2016 9:31:37 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmqrdb\libsrc\dcmqrdb.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmqrdb/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmqrdb\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmqrdb.dir\Release\\" /Fd"dcmqrdb.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcbf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcbg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcbm.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcbs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcnf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrdbi.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrdbs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqropt.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrptb.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrsrv.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrtis.cc"
+         dcmqrcbf.cc
+         dcmqrcbg.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcbg.cc(159): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dcmqrcbm.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrcbm.cc(183): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         dcmqrcbs.cc
+         dcmqrcnf.cc
+         dcmqrdbi.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrdbi.cc(1151): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrdbi.cc(2622): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrdbi.cc(2655): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\libsrc\dcmqrdbi.cc(2921): warning C4267: '=' : conversion from 'size_t' to 'Uint32', possible loss of data
+         dcmqrdbs.cc
+         dcmqropt.cc
+         dcmqrptb.cc
+         dcmqrsrv.cc
+         dcmqrtis.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmqrdb\libsrc\Release\dcmqrdb.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmqrdb.dir\Release\dcmqrcbf.obj
+         dcmqrdb.dir\Release\dcmqrcbg.obj
+         dcmqrdb.dir\Release\dcmqrcbm.obj
+         dcmqrdb.dir\Release\dcmqrcbs.obj
+         dcmqrdb.dir\Release\dcmqrcnf.obj
+         dcmqrdb.dir\Release\dcmqrdbi.obj
+         dcmqrdb.dir\Release\dcmqrdbs.obj
+         dcmqrdb.dir\Release\dcmqropt.obj
+         dcmqrdb.dir\Release\dcmqrptb.obj
+         dcmqrdb.dir\Release\dcmqrsrv.obj
+         dcmqrdb.dir\Release\dcmqrtis.obj
+         dcmqrdb.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmqrdb\libsrc\Release\dcmqrdb.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmqrdb\libsrc\dcmqrdb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.41

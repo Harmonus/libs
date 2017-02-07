@@ -1,0 +1,153 @@
+﻿Build started 7/1/2016 9:33:03 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg16\ijg16.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmjpeg/libijg16/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg16\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"ijg16.dir\Release\\" /Fd"ijg16.dir\Release\vc120.pdb" /Gd /TC /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jaricom.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcapimin.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcapistd.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcarith.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jccoefct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jccolor.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcdctmgr.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcdiffct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jchuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcinit.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jclhuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jclossls.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jclossy.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcmainct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcmarker.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcmaster.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcodec.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcomapi.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcparam.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcphuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcpred.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcprepct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcsample.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcscale.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jcshuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jctrans.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdapimin.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdapistd.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdarith.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdatadst.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdatasrc.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdcoefct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdcolor.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jddctmgr.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jddiffct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdhuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdinput.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdlhuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdlossls.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdlossy.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdmainct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdmarker.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdmaster.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdmerge.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdphuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdpostct.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdpred.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdsample.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdscale.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdshuff.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jdtrans.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jerror.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jfdctflt.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jfdctfst.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jfdctint.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jidctflt.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jidctfst.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jidctint.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jidctred.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jmemmgr.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jmemnobs.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jquant1.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jquant2.c" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jutils.c"
+         jaricom.c
+         jcapimin.c
+         jcapistd.c
+         jcarith.c
+         jccoefct.c
+         jccolor.c
+         jcdctmgr.c
+         jcdiffct.c
+         jchuff.c
+         jcinit.c
+         jclhuff.c
+         jclossls.c
+         jclossy.c
+         jcmainct.c
+         jcmarker.c
+         jcmaster.c
+         jcodec.c
+         jcomapi.c
+         jcparam.c
+         jcphuff.c
+         Generating Code...
+         Compiling...
+         jcpred.c
+         jcprepct.c
+         jcsample.c
+         jcscale.c
+         jcshuff.c
+         jctrans.c
+         jdapimin.c
+         jdapistd.c
+         jdarith.c
+         jdatadst.c
+         jdatasrc.c
+         jdcoefct.c
+         jdcolor.c
+         jddctmgr.c
+         jddiffct.c
+         jdhuff.c
+         jdinput.c
+         jdlhuff.c
+         jdlossls.c
+         jdlossy.c
+         Generating Code...
+         Compiling...
+         jdmainct.c
+         jdmarker.c
+         jdmaster.c
+         jdmerge.c
+         jdphuff.c
+         jdpostct.c
+         jdpred.c
+         jdsample.c
+         jdscale.c
+         jdshuff.c
+         jdtrans.c
+         jerror.c
+         jfdctflt.c
+         jfdctfst.c
+         jfdctint.c
+         jidctflt.c
+         jidctfst.c
+         jidctint.c
+         jidctred.c
+         jmemmgr.c
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jmemmgr.c(307): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jmemmgr.c(367): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jmemmgr.c(1029): warning C4267: '-=' : conversion from 'size_t' to 'long', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16\jmemmgr.c(1043): warning C4267: '-=' : conversion from 'size_t' to 'long', possible loss of data
+         Generating Code...
+         Compiling...
+         jmemnobs.c
+         jquant1.c
+         jquant2.c
+         jutils.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg16\Release\ijg16.lib" /NOLOGO /MACHINE:X64  /machine:x64 ijg16.dir\Release\jaricom.obj
+         ijg16.dir\Release\jcapimin.obj
+         ijg16.dir\Release\jcapistd.obj
+         ijg16.dir\Release\jcarith.obj
+         ijg16.dir\Release\jccoefct.obj
+         ijg16.dir\Release\jccolor.obj
+         ijg16.dir\Release\jcdctmgr.obj
+         ijg16.dir\Release\jcdiffct.obj
+         ijg16.dir\Release\jchuff.obj
+         ijg16.dir\Release\jcinit.obj
+         ijg16.dir\Release\jclhuff.obj
+         ijg16.dir\Release\jclossls.obj
+         ijg16.dir\Release\jclossy.obj
+         ijg16.dir\Release\jcmainct.obj
+         ijg16.dir\Release\jcmarker.obj
+         ijg16.dir\Release\jcmaster.obj
+         ijg16.dir\Release\jcodec.obj
+         ijg16.dir\Release\jcomapi.obj
+         ijg16.dir\Release\jcparam.obj
+         ijg16.dir\Release\jcphuff.obj
+         ijg16.dir\Release\jcpred.obj
+         ijg16.dir\Release\jcprepct.obj
+         ijg16.dir\Release\jcsample.obj
+         ijg16.dir\Release\jcscale.obj
+         ijg16.dir\Release\jcshuff.obj
+         ijg16.dir\Release\jctrans.obj
+         ijg16.dir\Release\jdapimin.obj
+         ijg16.dir\Release\jdapistd.obj
+         ijg16.dir\Release\jdarith.obj
+         ijg16.dir\Release\jdatadst.obj
+         ijg16.dir\Release\jdatasrc.obj
+         ijg16.dir\Release\jdcoefct.obj
+         ijg16.dir\Release\jdcolor.obj
+         ijg16.dir\Release\jddctmgr.obj
+         ijg16.dir\Release\jddiffct.obj
+         ijg16.dir\Release\jdhuff.obj
+         ijg16.dir\Release\jdinput.obj
+         ijg16.dir\Release\jdlhuff.obj
+         ijg16.dir\Release\jdlossls.obj
+         ijg16.dir\Release\jdlossy.obj
+         ijg16.dir\Release\jdmainct.obj
+         ijg16.dir\Release\jdmarker.obj
+         ijg16.dir\Release\jdmaster.obj
+         ijg16.dir\Release\jdmerge.obj
+         ijg16.dir\Release\jdphuff.obj
+         ijg16.dir\Release\jdpostct.obj
+         ijg16.dir\Release\jdpred.obj
+         ijg16.dir\Release\jdsample.obj
+         ijg16.dir\Release\jdscale.obj
+         ijg16.dir\Release\jdshuff.obj
+         ijg16.dir\Release\jdtrans.obj
+         ijg16.dir\Release\jerror.obj
+         ijg16.dir\Release\jfdctflt.obj
+         ijg16.dir\Release\jfdctfst.obj
+         ijg16.dir\Release\jfdctint.obj
+         ijg16.dir\Release\jidctflt.obj
+         ijg16.dir\Release\jidctfst.obj
+         ijg16.dir\Release\jidctint.obj
+         ijg16.dir\Release\jidctred.obj
+         ijg16.dir\Release\jmemmgr.obj
+         ijg16.dir\Release\jmemnobs.obj
+         ijg16.dir\Release\jquant1.obj
+         ijg16.dir\Release\jquant2.obj
+         ijg16.dir\Release\jutils.obj
+         ijg16.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg16\Release\ijg16.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmjpeg\libijg16\ijg16.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.69

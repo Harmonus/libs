@@ -1,0 +1,60 @@
+﻿Build started 7/1/2016 9:32:07 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimage\libsrc\dcmimage.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmimage/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimage\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmimage.dir\Release\\" /Fd"dcmimage.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diargimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dicmyimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dicoimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dicoopx.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dicopx.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dihsvimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dilogger.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dipalimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dipipng.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dipitiff.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diqtctab.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diqtfs.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diqthash.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diqthitl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diqtpbox.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diquant.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diregist.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\dirgbimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diybrimg.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diyf2img.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diyp2img.cc"
+         diargimg.cc
+         dicmyimg.cc
+         dicoimg.cc
+         dicoopx.cc
+         dicopx.cc
+         dihsvimg.cc
+         dilogger.cc
+         dipalimg.cc
+         dipipng.cc
+         dipitiff.cc
+         diqtctab.cc
+         diqtfs.cc
+         diqthash.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\libsrc\diqthash.cc(65): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         diqthitl.cc
+         diqtpbox.cc
+         diquant.cc
+         diregist.cc
+         dirgbimg.cc
+         diybrimg.cc
+         diyf2img.cc
+         Generating Code...
+         Compiling...
+         diyp2img.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimage\libsrc\Release\dcmimage.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmimage.dir\Release\diargimg.obj
+         dcmimage.dir\Release\dicmyimg.obj
+         dcmimage.dir\Release\dicoimg.obj
+         dcmimage.dir\Release\dicoopx.obj
+         dcmimage.dir\Release\dicopx.obj
+         dcmimage.dir\Release\dihsvimg.obj
+         dcmimage.dir\Release\dilogger.obj
+         dcmimage.dir\Release\dipalimg.obj
+         dcmimage.dir\Release\dipipng.obj
+         dcmimage.dir\Release\dipitiff.obj
+         dcmimage.dir\Release\diqtctab.obj
+         dcmimage.dir\Release\diqtfs.obj
+         dcmimage.dir\Release\diqthash.obj
+         dcmimage.dir\Release\diqthitl.obj
+         dcmimage.dir\Release\diqtpbox.obj
+         dcmimage.dir\Release\diquant.obj
+         dcmimage.dir\Release\diregist.obj
+         dcmimage.dir\Release\dirgbimg.obj
+         dcmimage.dir\Release\diybrimg.obj
+         dcmimage.dir\Release\diyf2img.obj
+         dcmimage.dir\Release\diyp2img.obj
+         dcmimage.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimage\libsrc\Release\dcmimage.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmimage\libsrc\dcmimage.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.79

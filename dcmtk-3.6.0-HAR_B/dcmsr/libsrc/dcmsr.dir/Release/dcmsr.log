@@ -1,0 +1,134 @@
+﻿Build started 7/1/2016 9:29:53 AM.
+     1>Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\libsrc\dcmsr.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Harmonus_src/libs/dcmtk-3.6.0/dcmsr/libsrc/CMakeLists.txt
+         CMake does not need to re-run because C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\libsrc\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\ofstd\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\oflog\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmdata\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimgle\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmimage\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg8" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg12" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\libijg16" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpeg\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmjpls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmnet\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmpstat\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmqrdb\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsign\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmtls\include" /I"C:\Harmonus_src\libs\dcmtk-3.6.0\dcmwlm\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D USE_NULL_SAFE_OFSTRING /D _CRT_FAR_MAPPINGS_NO_DEPRECATE /D _CRT_IS_WCTYPE_NO_DEPRECATE /D _CRT_MANAGED_FP_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE_GLOBALS /D _CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE /D _CRT_TIME_FUNCTIONS_NO_DEPRECATE /D _CRT_VCCLRIT_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _REENTRANT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dcmsr.dir\Release\\" /Fd"dcmsr.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcitem.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcodtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcodvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcomtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcomvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcontn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcsidl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrdattn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrdoc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrdoctn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrdoctr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrdtitn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrimgfr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrimgtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrimgvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrnumtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrnumvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrpnmtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrreftn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrscogr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrsc3gr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrscotn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrsc3tn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrscovl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrsc3vl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrsoprf.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrstrvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtcodt.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtcosp.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtcotn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtcoto.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtcovl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtextn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtimtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtncsr.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtree.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtypes.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsruidtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrwavch.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrwavtn.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrwavvl.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrxmlc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrxmld.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsriodcc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrbascc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrenhcc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcomcc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrkeycc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrmamcc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrchecc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrcolcc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrprocc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrxrdcc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrspecc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrmaccc.cc" "C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrimpcc.cc"
+         dsrcitem.cc
+         dsrcodtn.cc
+         dsrcodvl.cc
+         dsrcomtn.cc
+         dsrcomvl.cc
+         dsrcontn.cc
+         dsrcsidl.cc
+         dsrdattn.cc
+         dsrdoc.cc
+         dsrdoctn.cc
+         dsrdoctr.cc
+         dsrdtitn.cc
+         dsrimgfr.cc
+         dsrimgtn.cc
+         dsrimgvl.cc
+         dsrnumtn.cc
+         dsrnumvl.cc
+         dsrpnmtn.cc
+         dsrreftn.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrreftn.cc(142): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrreftn.cc(144): warning C4267: 'argument' : conversion from 'size_t' to 'const Uint32', possible loss of data
+         dsrscogr.cc
+         Generating Code...
+         Compiling...
+         dsrsc3gr.cc
+         dsrscotn.cc
+         dsrsc3tn.cc
+         dsrscovl.cc
+         dsrsc3vl.cc
+         dsrsoprf.cc
+         dsrstrvl.cc
+         dsrtcodt.cc
+         dsrtcosp.cc
+         dsrtcotn.cc
+         dsrtcoto.cc
+         dsrtcovl.cc
+         dsrtextn.cc
+         dsrtimtn.cc
+         dsrtncsr.cc
+         dsrtree.cc
+         dsrtypes.cc
+     1>C:\Harmonus_src\libs\dcmtk-3.6.0\dcmsr\libsrc\dsrtypes.cc(836): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned long', possible loss of data
+         dsruidtn.cc
+         dsrwavch.cc
+         dsrwavtn.cc
+         Generating Code...
+         Compiling...
+         dsrwavvl.cc
+         dsrxmlc.cc
+         dsrxmld.cc
+         dsriodcc.cc
+         dsrbascc.cc
+         dsrenhcc.cc
+         dsrcomcc.cc
+         dsrkeycc.cc
+         dsrmamcc.cc
+         dsrchecc.cc
+         dsrcolcc.cc
+         dsrprocc.cc
+         dsrxrdcc.cc
+         dsrspecc.cc
+         dsrmaccc.cc
+         dsrimpcc.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\libsrc\Release\dcmsr.lib" /NOLOGO /MACHINE:X64  /machine:x64 dcmsr.dir\Release\dsrcitem.obj
+         dcmsr.dir\Release\dsrcodtn.obj
+         dcmsr.dir\Release\dsrcodvl.obj
+         dcmsr.dir\Release\dsrcomtn.obj
+         dcmsr.dir\Release\dsrcomvl.obj
+         dcmsr.dir\Release\dsrcontn.obj
+         dcmsr.dir\Release\dsrcsidl.obj
+         dcmsr.dir\Release\dsrdattn.obj
+         dcmsr.dir\Release\dsrdoc.obj
+         dcmsr.dir\Release\dsrdoctn.obj
+         dcmsr.dir\Release\dsrdoctr.obj
+         dcmsr.dir\Release\dsrdtitn.obj
+         dcmsr.dir\Release\dsrimgfr.obj
+         dcmsr.dir\Release\dsrimgtn.obj
+         dcmsr.dir\Release\dsrimgvl.obj
+         dcmsr.dir\Release\dsrnumtn.obj
+         dcmsr.dir\Release\dsrnumvl.obj
+         dcmsr.dir\Release\dsrpnmtn.obj
+         dcmsr.dir\Release\dsrreftn.obj
+         dcmsr.dir\Release\dsrscogr.obj
+         dcmsr.dir\Release\dsrsc3gr.obj
+         dcmsr.dir\Release\dsrscotn.obj
+         dcmsr.dir\Release\dsrsc3tn.obj
+         dcmsr.dir\Release\dsrscovl.obj
+         dcmsr.dir\Release\dsrsc3vl.obj
+         dcmsr.dir\Release\dsrsoprf.obj
+         dcmsr.dir\Release\dsrstrvl.obj
+         dcmsr.dir\Release\dsrtcodt.obj
+         dcmsr.dir\Release\dsrtcosp.obj
+         dcmsr.dir\Release\dsrtcotn.obj
+         dcmsr.dir\Release\dsrtcoto.obj
+         dcmsr.dir\Release\dsrtcovl.obj
+         dcmsr.dir\Release\dsrtextn.obj
+         dcmsr.dir\Release\dsrtimtn.obj
+         dcmsr.dir\Release\dsrtncsr.obj
+         dcmsr.dir\Release\dsrtree.obj
+         dcmsr.dir\Release\dsrtypes.obj
+         dcmsr.dir\Release\dsruidtn.obj
+         dcmsr.dir\Release\dsrwavch.obj
+         dcmsr.dir\Release\dsrwavtn.obj
+         dcmsr.dir\Release\dsrwavvl.obj
+         dcmsr.dir\Release\dsrxmlc.obj
+         dcmsr.dir\Release\dsrxmld.obj
+         dcmsr.dir\Release\dsriodcc.obj
+         dcmsr.dir\Release\dsrbascc.obj
+         dcmsr.dir\Release\dsrenhcc.obj
+         dcmsr.dir\Release\dsrcomcc.obj
+         dcmsr.dir\Release\dsrkeycc.obj
+         dcmsr.dir\Release\dsrmamcc.obj
+         dcmsr.dir\Release\dsrchecc.obj
+         dcmsr.dir\Release\dsrcolcc.obj
+         dcmsr.dir\Release\dsrprocc.obj
+         dcmsr.dir\Release\dsrxrdcc.obj
+         dcmsr.dir\Release\dsrspecc.obj
+         dcmsr.dir\Release\dsrmaccc.obj
+         dcmsr.dir\Release\dsrimpcc.obj
+         dcmsr.vcxproj -> C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\libsrc\Release\dcmsr.lib
+     1>Done Building Project "C:\Harmonus_src\libs\dcmtk-3.6.0-HAR_B\dcmsr\libsrc\dcmsr.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:04.51
